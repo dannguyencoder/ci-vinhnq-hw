@@ -23,6 +23,9 @@ public class GameWindow extends JFrame {
 
     BufferedImage backBufferImage;
     Graphics2D backBufferGraphics2D;
+    private int playerY;
+    private int backgroundPosX;
+    private int backgroundPosY;
 
     public GameWindow()
     {
@@ -30,6 +33,9 @@ public class GameWindow extends JFrame {
         loadImages();
 
         playerX = background.getWidth()/2;
+        playerY = this.getHeight()/2;
+        backgroundPosX = 0;
+        backgroundPosY = this.getHeight() - background.getHeight();
         //tai sao dat gia tri bang khong
 
         setupInputs();
@@ -53,16 +59,15 @@ public class GameWindow extends JFrame {
                 {
                     case KeyEvent.VK_RIGHT:
                         playerX += 5;
-                        repaint();
                         break;
                     case KeyEvent.VK_LEFT:
-                        System.out.println("left");
+                        playerX -= 5;
                         break;
                     case KeyEvent.VK_UP:
-                        System.out.println("up");
+                        playerY -= 5;
                         break;
                     case KeyEvent.VK_DOWN:
-                        System.out.println("down");
+                        playerY += 5;
                         break;
                     default:
                         break;
@@ -82,6 +87,7 @@ public class GameWindow extends JFrame {
         {
             try {
                 Thread.sleep(17);
+
                 backBufferGraphics2D.setColor(Color.red);
                 backBufferGraphics2D.fillRect(0,0,this.getWidth(),this.getHeight());
 
@@ -89,8 +95,13 @@ public class GameWindow extends JFrame {
 
                 int windowHeight = this.getHeight();
 
-                backBufferGraphics2D.drawImage(background, 0,this.getHeight() - background.getHeight(),null);
-                backBufferGraphics2D.drawImage(player, playerX, this.getHeight()/2, null);
+                if (backgroundPosY < 0)
+                {
+                    backgroundPosY++;
+                }
+
+                backBufferGraphics2D.drawImage(background, backgroundPosX,backgroundPosY,null);
+                backBufferGraphics2D.drawImage(player, playerX, playerY, null);
 
                 Graphics2D g2d = (Graphics2D) this.getGraphics();
 
