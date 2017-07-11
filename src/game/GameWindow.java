@@ -126,7 +126,7 @@ public class GameWindow extends JFrame {
         this.setSize(600, 600);
 
         this.setResizable(false);
-        this.setTitle("Touhou - Remade by Vinh");
+        this.setTitle("Touhou - Remade by Vinhaaaaaaaaaaaaaaaa");
 
         this.addWindowListener(new WindowAdapter() {
             @Override
