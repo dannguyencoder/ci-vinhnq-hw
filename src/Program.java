@@ -7,7 +7,8 @@ import java.util.*;
  */
 public class Program {
     public static void main(String[] args) {
+
         GameWindow gameWindow = new GameWindow();
-        gameWindow.run();
+        gameWindow.loop();
     }
 }
