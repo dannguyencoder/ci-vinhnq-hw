@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2701edb7-6b3d-461d-a128-a4bebab19870" name="Default" comment="">
+    <list default="true" id="2701edb7-6b3d-461d-a128-a4bebab19870" name="Default" comment="Rotate the spell to vertical&#10;Move the spell to center of player&#10;Added 1 simple enemy&#10;Cooled down the spell">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -814,7 +814,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="22" width="1243" height="680" extended-state="1" />
+    <frame x="51" y="22" width="1243" height="680" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
