@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2701edb7-6b3d-461d-a128-a4bebab19870" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FooBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/enemies/Enemy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/players/PLayerSpell.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/players/Player.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/player-bullets/a/0.png" afterPath="$PROJECT_DIR$/assets/images/player-spells/a/0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/player-bullets/a/1.png" afterPath="$PROJECT_DIR$/assets/images/player-spells/a/1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/player-bullets/a/2.png" afterPath="$PROJECT_DIR$/assets/images/player-spells/a/2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/player-bullets/a/3.png" afterPath="$PROJECT_DIR$/assets/images/player-spells/a/3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ci-begin/Program.class" afterPath="$PROJECT_DIR$/out/production/ci-begin/Program.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ci-begin/game/GameWindow$1.class" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/GameWindow$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ci-begin/game/GameWindow$2.class" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/GameWindow$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ci-begin/game/GameWindow.class" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/GameWindow.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Program.java" afterPath="$PROJECT_DIR$/src/Program.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/GameWindow.java" afterPath="$PROJECT_DIR$/src/game/GameWindow.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +40,8 @@
       <file leaf-file-name="GameWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="190" column="55" lean-forward="true" selection-start-line="190" selection-start-column="55" selection-end-line="190" selection-end-column="55" />
+            <state relative-caret-position="221">
+              <caret line="185" column="0" lean-forward="true" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
               <folding>
                 <element signature="e#6099#6344#0" expanded="true" />
                 <element signature="e#6343#6344#0" expanded="true" />
@@ -800,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499614261715</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rotate the spell to vertical&#10;Move the spell to center of player&#10;Added 1 simple enemy&#10;Cooled down the spell">
+      <created>1500081716538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500081716538</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -858,7 +849,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added background&#10;Added back buffer rendering&#10;Added game loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added background&#10;Added back buffer rendering&#10;Added game loop" />
+    <MESSAGE value="Rotate the spell to vertical&#10;Move the spell to center of player&#10;Added 1 simple enemy&#10;Cooled down the spell" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rotate the spell to vertical&#10;Move the spell to center of player&#10;Added 1 simple enemy&#10;Cooled down the spell" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1282,8 +1274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="190" column="55" lean-forward="true" selection-start-line="190" selection-start-column="55" selection-end-line="190" selection-end-column="55" />
+        <state relative-caret-position="221">
+          <caret line="185" column="0" lean-forward="true" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
           <folding>
             <element signature="e#6099#6344#0" expanded="true" />
             <element signature="e#6343#6344#0" expanded="true" />
